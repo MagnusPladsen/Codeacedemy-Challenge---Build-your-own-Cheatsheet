@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <link href="styles.css" type="text/css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+        <title>Cheat Sheet</title>
+    </head>
+    <body>
+        <div id="top">
+            <p>Codeacedemy project: Build Your Own Cheat Sheet</p>
+        </div>
+        <header>
+            <h1>Cheat Sheet</h1>
+        </header>
+            <article class="html">
+            <h2>HTML Tables</h2>
+                <section>
+                    <h3>What is HTML Tables?</h3>
+                    <p><span class="start-of-section">HTML Tables</span> allow web developers to arrange data into rows and columns.
+                        <br>They can contain all sorts of HTML elements; text, images, lists, other tables, etc.</p>
+                </section>
+                <section class="htmltable">
+                    <h3>HTML Table Tags:</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Tag</td>
+                                <td>Name</td>
+                                <td>Description</td>
+                            </tr>
+                        </thead>
+                        <tbody class="tabledata">
+                            <tr>
+                                <td>&lt;table&gt;</td>
+                                    <td>Table</td>
+                                <td>The wrapper element for all HTML tables.</td>
+                            </tr>
+                            <tr>
+                                <td>&lt;thead&gt;</td>
+                                <td>Table Head</td>
+                                <td>The set of rows defining the column headers in a table.</td>
+                            </tr>
+                            <tr>
+                                <td>&lt;tbody&gt;</td>
+                                <td>Table Body</td>
+                                <td>The sets of rows containing actual table data.</td>
+                            </tr>
+                            <tr>
+                                <td>&lt;tr&gt;</td>
+                                <td>Table Row</td>
+                                <td>The table row container.</td>
+                            </tr>
+                            <tr>
+                                <td>&lt;td&gt;</td>
+                                <td>Table Data</td>
+                                <td>The table row container.</td>
+                            </tr>
+                        </tbody>
+                        <tfoot class="tabledata">
+                            <tr>
+                                <td>&lt;tfoot&gt;</td>
+                                <td>Tabel Foot</td>
+                                <td>The set of rows defining the footer in a table.</td>
+                            </tr>
+                        </tfoot>
+                    </table>   
+                </section>
+            </article>
+            <article class="css">
+                <h2>CSS Specificity</h2>
+                <section>
+                    <h3>What is CSS Specificity?</h3>
+                    <p>
+                        <span class="start-of-section">CSS Specificity</span> is the means by which browsers decide which CSS property values are the most relevant to an element and,
+                        therefore, will be applied. Specificity is based on the matching rules which are composed of different sorts of CSS selectors.
+                    </p>
+                    <h3>Selector Types</h3>
+                    <p>The following list of selector types increases by specificity:</p>
+                    <ol>
+                        <li><b>ID</b> selectors</li>
+                        <li><b>CLASS</b> selectors</li>
+                        <li><b>TYPE</b> selectors</li>
+                    </ol>
+                    <p>
+                        <span class="start-of-section">ID</span> selectors matches elements by node name. In other words, it selects all elements of the given type within a document.
+                    </p>
+                    <p>
+                        <span class="start-of-section">Class</span> selectors matches elements based on the contents of their class attribute.
+                    </p>
+                    <p>
+                        <span class="start-of-section">Type</span> selectors matches an element based on the value of the element’s id attribute.
+                        In order for the element to be selected, its id attribute must match exactly the value given in the selector.
+                    </p>
+                </section>
+            </article>
+        <footer>
+            <p>Created by <a href="https://github.com/MagnusPladsen" target="_blank">Magnus Pladsen</a> 2021</p>
+        </footer>
+    </body>
+</html>

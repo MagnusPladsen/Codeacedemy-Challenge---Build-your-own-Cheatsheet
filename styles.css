@@ -1,0 +1,103 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(215, 233, 237);
+    color: rgb(52, 52, 52)
+}
+
+body {
+    margin-left:3%;
+    margin-top: 5%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 900;
+    text-transform: capitalize;
+    letter-spacing: 0.1em;
+}
+
+h2 {
+    font-size: 45px;
+    letter-spacing: 0.1em;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.start-of-section {
+    font-weight: bold;
+    font-size: larger;
+}
+
+table {
+    margin: auto;
+    width: 70%;
+}
+
+table, td {
+    border: 1.5px solid;
+}
+
+thead td {
+    background-color: rgb(225, 225, 225)
+}
+
+.tabledata td {
+    background-color: white;
+}
+thead {
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+.tabledata {
+    text-align: left;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 0.2em;
+    opacity: 0.5;
+    font-style: italic;
+}
+
+#top {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 0.2em;
+    opacity: 0.5;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    font-weight: 550;
+}
+
+.css {
+    margin-bottom: 15%;
+    margin-top: 5%;
+}
+
+.css p {
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+ol {
+    margin-bottom: 2%;
+}
